@@ -7,7 +7,7 @@ def speak(audio):
     engine.say(audio)
     engine.runAndWait()
 speak("This is program for finding acceleration due to gravity of any planet whose mass and radius is given")
-speak("Folow the instructions")
+speak("Follow the instructions")
 while True:
     speak('Hello what is the mass of the planet ?')
     mass = input('What is the mass of the planet ?\n')
